@@ -1,7 +1,9 @@
+# Aula sobre Operadores Aritméticos
 produto_1 = 20
 produto_2 = 10
 
-#print(f"Produto 1 =" {produto_1 } "Produto 2= " {produto_2})
+print(f'Produto 1 = {produto_1 }  Produto 2=  {produto_2}')
+
 #soma
 print("soma= ", produto_1 + produto_2)
 #subtração
@@ -19,4 +21,4 @@ print("Potência= ", produto_1 ** produto_2)
 
 #Ordem de precedência
 
-total = print("produto_1 + 22 +(produto_2*2) = " , produto_1+ 22 + (produto_2*2))
+total = print(f'Produto 1 + 22 + (Produto 2 * 2) = {produto_1+ 22 + (produto_2*2)}')
