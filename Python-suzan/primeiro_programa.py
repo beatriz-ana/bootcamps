@@ -1,0 +1,5 @@
+print("Hello World")
+print(1+5)
+print(1.5)
+print(True)
+print(False)
