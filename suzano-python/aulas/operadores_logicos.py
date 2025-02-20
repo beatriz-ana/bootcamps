@@ -13,6 +13,8 @@ saque = 250
 limite = 200
 conta_especial = True
 
-saldo >= saque and saque <= limite or conta_especial and saldo >= saque
+expressao = saldo >= saque and saque <= limite or conta_especial and saldo >= saque
+print(expressao)
 
-(saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)
+expressao_2 = (saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)
+print(expressao_2)
