@@ -8,3 +8,8 @@ for letra in texto:
 else:
     print() # adiciona uma quebra de linha
     print("Executo no final do laço")
+
+
+# exibindo a tabuada do 5
+for numero in range(0, 51, 5):# começo, start , step(vai de 5 em 5)
+    print(numero, end=" ")
